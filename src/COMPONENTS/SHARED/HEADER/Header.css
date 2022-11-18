@@ -1,0 +1,17 @@
+.navbar-brand {
+  font-weight: 900;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1.2rem;
+}
+.nav {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav-link:hover {
+  background-color: cadetblue;
+  color: darkblue;
+  /* border-radius: 1.2rem; */
+}
