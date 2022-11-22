@@ -1,19 +1,18 @@
 import './product_cart.css';
 
-function ProductCart() {
+function ProductCart(props) {
   return (
     <div className="card bg-dark">
-      <img
-        src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14pro-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1663611329204"
-        className="img "
-        alt="..."
-      ></img>
+      <img src={props.item.img} className="img " alt="..."></img>
 
       <div className="card-body">
-        <h5 className="card-title ">IPHONE</h5>
-        <p className="card-text text-uppercase ">created by apple</p>
-        <p className="card-text text-uppercase ">95000</p>
-        <a href="#" className=" btn text-uppercase btn-success btn-lg btn-flex">
+        <h5 className="card-title ">{props.item.name}</h5>
+        <p className="card-text text-uppercase ">{props.item.detail}</p>
+        <p className="card-text text-uppercase ">{props.item.price}</p>
+        <a
+          href="cart.js"
+          className=" btn text-uppercase btn-success btn-lg btn-flex"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="26"

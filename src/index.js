@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Cart from './PAGES/CART/Cart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <Home />
+  // <Cart />
   // </React.StrictMode>
 );
 

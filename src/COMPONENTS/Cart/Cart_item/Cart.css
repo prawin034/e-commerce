@@ -1,0 +1,25 @@
+.btn {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.dropdown {
+  width: 500px;
+}
+.drop {
+  width: 100px;
+}
+img {
+  width: 300px;
+  height: 200px;
+
+  background-color: black;
+}
+.col-md-4 {
+  border-right: 10px solid black;
+  /* border-left: 10px solid black; */
+}

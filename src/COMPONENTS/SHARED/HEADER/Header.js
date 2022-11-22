@@ -23,9 +23,9 @@ function Header() {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ">
-            <li className="nav-item">
+            <li className="nav-item ">
               <a
-                className="nav-link active text-white"
+                className="nav-link active bg-info"
                 aria-current="page"
                 href="#"
               >
@@ -34,12 +34,12 @@ function Header() {
             </li>
             <li className="nav-item">
               <a className="nav-link text-white font-weight-bolder" href="#">
-                ABOUT
+                CART
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                SERVICES
+                LOG IN
               </a>
             </li>
           </ul>
